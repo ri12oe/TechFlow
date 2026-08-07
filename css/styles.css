@@ -850,6 +850,178 @@ footer {
     pointer-events: none;
 }
 
+/* ========================================= */
+
+
+/* Number Stats Section */
+
+.number-wrapper {
+  background-color: white;
+}
+
+.numbers-stats {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.stats-title {
+  font-weight: 500px;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: #030213;
+  text-align: center;
+}
+
+.stats-line {
+  width: 48px;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.number-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.number-card {
+  /* background-color: red; */
+  /* width: 300px;
+  height: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.number-icon {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  
+}
+
+.number-icon svg {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+
+
+.number-line {
+  width: 3px;
+  height: 48px;
+  background-color: #0302131A;
+  margin-left: 20px;
+}
+
+
+
+
+.number-subtitle {
+  font-weight: 900px;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.37px;
+}
+
+.number-descp {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+/* =============================== */
+
+
+/* Build Section */
+
+.build-wrapper {
+  margin-bottom: 32px;
+}
+
+.build-section {
+  position: relative;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.build-section::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 90px;
+  height: 90px;
+  background-image: radial-gradient(circle, white 2px, transparent 2px);
+  background-size: 14px 14px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.build-title {
+  color: white;
+  font-size: 48px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+}
+
+.build-subdescp {
+  color: white;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+.build-subcontent {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ready-buttons2 {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.ready-button2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px 32px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
