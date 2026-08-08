@@ -96,11 +96,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 32px;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .hero-content {
-  width: 528px;
+  flex: 1 1 320px;
+  max-width: 528px;
   min-height: 400px;
 }
 
@@ -281,8 +283,10 @@ nav {
   padding-top: 80px;
   padding-bottom: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
 .develop-img {
@@ -296,9 +300,10 @@ nav {
 }
 
 .develop-subcontent {
-  width: 528px;
+  flex: 1 1 320px;
+  max-width: 528px;
   min-height: 400px;
-  margin-top: 36px;
+  margin-top: 0;
 }
 
 
@@ -757,7 +762,9 @@ footer {
 
 
 .hero-img3 {
-  width: 528px;
+  flex: 1 1 320px;
+  max-width: 528px;
+  width: 100%;
   height: 352px;
   border-radius: 16px;
   /* background-color: red; */
@@ -765,7 +772,7 @@ footer {
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -80px;
+  margin-top: 0;
 
 }
 
@@ -821,10 +828,10 @@ footer {
 
 
 .develop-img4 {
-  /* width: 528px; */
-  width: 650px;
-  /* height: 396px; */
-  height: 500px;
+  flex: 1 1 320px;
+  max-width: 650px;
+  width: 100%;
+  height: clamp(280px, 40vw, 500px);
   border-radius: 14px;
   background-image: url(../images/tech-office.jpg);
   background-position:center;
@@ -883,6 +890,7 @@ footer {
 .number-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 50px;
 }
@@ -1079,6 +1087,7 @@ footer {
   justify-content: center;
   width: 100%;
   gap: 32px;
+  flex-wrap: wrap;
 }
 
 .hero-callout-card {
@@ -1128,6 +1137,8 @@ footer {
   font-size: 15px;
   line-height: 22px;
 }
+
+
 
 
 
@@ -1207,6 +1218,13 @@ footer {
     min-height: auto;
   }
 
+  .hero-img3 {
+    width: 100%;
+    max-width: 100%;
+    height: 260px;
+    margin-top: 0;
+  }
+
   .hero-header {
     font-size: 32px;
     line-height: 38px;
@@ -1258,6 +1276,7 @@ footer {
     flex-direction: column;
     padding-top: 48px;
     padding-bottom: 48px;
+    gap: 24px;
   }
 
   .develop-img {
@@ -1268,7 +1287,13 @@ footer {
   .develop-subcontent {
     width: 100%;
     min-height: auto;
-    margin-top: 32px;
+    margin-top: 0;
+  }
+
+  .develop-img4 {
+    width: 100%;
+    max-width: 100%;
+    height: 260px;
   }
 
   .develop-title {
