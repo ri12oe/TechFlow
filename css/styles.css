@@ -469,7 +469,7 @@ footer {
   width: 528px;
   height: 352px;
   border-radius: 16px;
-  background-color: red;
+  /* background-color: red; */
   background-image: url(../images/working.jpg);
   background-position:center;
   background-repeat: no-repeat;
@@ -1014,6 +1014,127 @@ footer {
   letter-spacing: -0.31px;
   text-align: center;
 }
+
+/* ================================= */
+
+/* Contact Page */
+
+
+/* Hero Section */
+
+.hero2 {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.hero-subtitle3 {
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+  text-align: center;
+
+}
+
+.hero-callout {
+  color: #030213;
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 6px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+  text-align: center;
+
+}
+
+.hero-subdesp2 {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: #0A0A0AB2;
+  padding-top: 24px;
+  text-align: center;
+
+}
+
+.stats-line2 {
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  margin: 12px auto;
+}
+
+.hero-callout-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 32px;
+}
+
+.hero-callout-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: min(100%, 320px);
+  padding: 20px 24px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(3, 2, 19, 0.06);
+}
+
+.hero-callout-card .offer-icon {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  border-radius: 14px;
+  background-color: #f3f4f6;
+  border: 1px solid #eceef2;
+}
+
+.hero-callout-card .offer-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+.callout-subcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.callout-title {
+  margin: 0;
+  color: #030213;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.callout-desp {
+  margin: 0;
+  color: #0A0A0AB2;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+
+
+
+
+
+
 
 
 
