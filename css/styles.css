@@ -1362,7 +1362,7 @@ footer {
 
     margin-right: 14px;
 
-    background-color: #f0efff;
+    background-color: #ECECF04D;
     color: black;
 
     border-radius: 7px;
@@ -1411,7 +1411,7 @@ footer {
 }
 
 .contact-info-item:hover .contact-arrow {
-    color: #5548e8;
+    color: black;
     transform: translateX(3px);
 }
 
