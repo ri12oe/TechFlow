@@ -59,7 +59,7 @@ nav {
 
 .links a {
   text-decoration: none;
-  color: #0A0A0ACC;
+  color: #0a0a0acc;
   font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
@@ -71,13 +71,12 @@ nav {
   background-color: #030213;
   border-radius: 10px;
   padding: 12px 24px;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.31px;
 }
-
 
 /* ========================== */
 
@@ -121,7 +120,6 @@ nav {
   border-radius: 6px;
   /* background: linear-gradient(90deg, #fef3c7 0%, #fde68a 100%); */
   /* box-shadow: inset 0 -2px 0 rgba(3, 2, 19, 0.08); */
-
 }
 
 .hero-subheader {
@@ -129,7 +127,7 @@ nav {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.44px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   padding-top: 24px;
 }
 
@@ -150,7 +148,7 @@ nav {
 }
 
 .hero-buttons .hero-outline-button {
-  background-color: #ECEEF2;
+  background-color: #eceef2;
   border-radius: 10px;
   padding: 15px 32px;
   color: #030213;
@@ -162,33 +160,29 @@ nav {
   margin-left: 16px;
 }
 
-
 .hero-img {
   width: 528px;
   height: 352px;
   border-radius: 16px;
   background-color: red;
   background-image: url(../images/team.png);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -80px;
-
 }
 
 /* ===================================== */
 
-
 /* Why Content Section */
 
 .why-content-wrapper {
-  background-color: #ECECF04D;
+  background-color: #ececf04d;
 }
 
 .why-content {
   padding-top: 80px;
   padding-bottom: 80px;
-  
 }
 
 .why-title {
@@ -196,12 +190,12 @@ nav {
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.37px;
-  color: #0A0A0A;
+  color: #0a0a0a;
   text-align: center;
 }
 
 .why-subtitle {
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   font-weight: 400px;
   font-size: 18px;
   line-height: 28px;
@@ -214,7 +208,6 @@ nav {
   margin-top: 48px;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .offer-card {
@@ -222,7 +215,7 @@ nav {
   height: 241px;
   border-radius: 14px;
   background-color: white;
-  border: 1px solid #0000001A;
+  border: 1px solid #0000001a;
   padding: 33px;
   display: flex;
   flex-direction: column;
@@ -237,7 +230,7 @@ nav {
   min-width: 48px;
   min-height: 48px;
   border-radius: 10px;
-  background-color: #0302131A;
+  background-color: #0302131a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +249,7 @@ nav {
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.44px;
-  color: #0A0A0A;
+  color: #0a0a0a;
   text-align: left;
 }
 
@@ -265,19 +258,17 @@ nav {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.31px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   text-align: left;
 }
-
 
 /* ========================= */
 
 /* Developer Content */
 
 .develop-wrapper {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
 
 .develop-content {
   padding-top: 80px;
@@ -294,7 +285,7 @@ nav {
   height: 396px;
   border-radius: 14px;
   background-image: url(../images/about.png);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -306,22 +297,20 @@ nav {
   margin-top: 0;
 }
 
-
 .develop-title {
   font-weight: 500px;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.37px;
-  color: #0A0A0A;
+  color: #0a0a0a;
 }
-
 
 .develop-descp {
   font-weight: 400px;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.44px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   margin-top: 24px;
 }
 
@@ -330,7 +319,7 @@ nav {
 /* FOOTER SECTION */
 
 footer {
-  background-color: #ECECF080;
+  background-color: #ececf080;
   min-height: 241px;
 }
 
@@ -340,7 +329,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   /* background-color: blue; */
-  border-bottom: 1px solid #A1A1A1;
+  border-bottom: 1px solid #a1a1a1;
   padding-bottom: 16px;
   padding-top: 49px;
 }
@@ -356,16 +345,15 @@ footer {
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.44px;
-  color: #0A0A0A;
+  color: #0a0a0a;
 }
-
 
 .footer-subtitle {
   font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.31px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   padding-top: 16px;
 }
 
@@ -396,13 +384,11 @@ footer {
   padding: 0;
 }
 
-
 .right {
   width: 229px;
   height: 128px;
   /* background-color: purple; */
   display: flex;
-  
 }
 
 .side {
@@ -427,15 +413,13 @@ footer {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.31px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
 }
-
 
 .right-side {
   /* background-color: brown; */
   padding-left: 48px;
 }
-
 
 .copyright {
   min-height: 121px;
@@ -445,13 +429,9 @@ footer {
   color: #737373;
 }
 
-
-
 /* ====================== */
 
-
 /* Features Page */
-
 
 /* Hero section */
 
@@ -463,11 +443,10 @@ footer {
   line-height: 24px;
   letter-spacing: -0.31px;
   margin-left: 16px;
-  
 }
 
 .hero-wrapper {
-  background-color: #ECECF04D;
+  background-color: #ececf04d;
 }
 
 .hero-img2 {
@@ -476,11 +455,10 @@ footer {
   border-radius: 16px;
   /* background-color: red; */
   background-image: url(../images/working.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -80px;
-
 }
 
 /* Teams Section */
@@ -530,10 +508,7 @@ footer {
 }
 /* =========================================== */
 
-
 /* Features Section */
-
-
 
 .features {
   padding-top: 80px;
@@ -545,9 +520,8 @@ footer {
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.37px;
-  color: #0A0A0A;
+  color: #0a0a0a;
   text-align: center;
-
 }
 
 .offer-cards2 {
@@ -561,7 +535,7 @@ footer {
 .offer-card2 {
   height: 320px;
   width: 345px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border: 1px solid #e5e7eb;
   padding: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
@@ -573,11 +547,10 @@ footer {
   padding: 32px;
 }
 
-
 .offer-card-icon {
   width: 48px;
   height: 48px;
-  background-color: #0302131A;
+  background-color: #0302131a;
   border-radius: 999px;
   display: flex;
   justify-content: center;
@@ -590,22 +563,20 @@ footer {
 }
 
 .offer-card-title {
-  color: #0A0A0A;
+  color: #0a0a0a;
   font-weight: 500px;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  
 }
 
-.offer-card-descp p{
+.offer-card-descp p {
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   text-align: center;
-} 
-
+}
 
 /* Developer2 section */
 .developer-wrapper2 {
@@ -617,33 +588,29 @@ footer {
   color: #0056b3;
 }
 
-
 .develop-img2 {
   width: 528px;
   height: 396px;
   border-radius: 14px;
   background-image: url(../images/collab.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .develop-img3 {
   width: 528px;
   height: 396px;
   border-radius: 14px;
   background-image: url(../images/auto.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* ======================================== */
 
-
 /* Quote Section */
-
 
 .quote-team {
   padding-top: 200px;
@@ -676,7 +643,6 @@ footer {
   line-height: 40px;
   letter-spacing: 0.37px;
   color: #030213;
-
 }
 
 .quote-descp {
@@ -717,7 +683,6 @@ footer {
   color: white;
 }
 
-
 .ready-buttons {
   margin-top: 32px;
 }
@@ -734,15 +699,11 @@ footer {
   letter-spacing: -0.31px;
 }
 
-
 /* ======================== */
 
 /* About Page */
 
-
-
 /* Hero section */
-
 
 .hero-header2 {
   font-weight: 400px;
@@ -751,15 +712,12 @@ footer {
   letter-spacing: 0.35px;
 }
 
-
 .hero-line {
   width: 48px;
   height: 3px;
-  background-color:#0302131A;
+  background-color: #0302131a;
   margin: 24px 0;
 }
-
-
 
 .hero-img3 {
   flex: 1 1 320px;
@@ -769,15 +727,13 @@ footer {
   border-radius: 16px;
   /* background-color: red; */
   background-image: url(../images/about-hero.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0;
-
 }
 
 /* ============================================== */
-
 
 /* Our Value Section */
 
@@ -810,22 +766,18 @@ footer {
   margin: 0 auto;
 }
 
-
 /* =============================== */
-
 
 /* Our Story Section */
 
-
 .story-signature {
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 32px;
-    font-weight: 500;
-    color: #222;
-    margin-top: 28px;
-    margin-bottom: 2px;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32px;
+  font-weight: 500;
+  color: #222;
+  margin-top: 28px;
+  margin-bottom: 2px;
 }
-
 
 .develop-img4 {
   flex: 1 1 320px;
@@ -834,31 +786,25 @@ footer {
   height: clamp(280px, 40vw, 500px);
   border-radius: 14px;
   background-image: url(../images/tech-office.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-
 .img-dots {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    right: -24px;
-    bottom: -24px;
-    background-image: radial-gradient(
-        circle,
-        black 2px,
-        transparent 2px
-    );
-    background-size: 14px 14px;
-    z-index: 2;
-    pointer-events: none;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: -24px;
+  bottom: -24px;
+  background-image: radial-gradient(circle, black 2px, transparent 2px);
+  background-size: 14px 14px;
+  z-index: 2;
+  pointer-events: none;
 }
 
 /* ========================================= */
-
 
 /* Number Stats Section */
 
@@ -913,7 +859,6 @@ footer {
   justify-content: center;
   background-color: black;
   border-radius: 10px;
-  
 }
 
 .number-icon svg {
@@ -922,16 +867,12 @@ footer {
   color: white;
 }
 
-
 .number-line {
   width: 3px;
   height: 48px;
-  background-color: #0302131A;
+  background-color: #0302131a;
   margin-left: 20px;
 }
-
-
-
 
 .number-subtitle {
   font-weight: 900px;
@@ -948,7 +889,6 @@ footer {
 }
 
 /* =============================== */
-
 
 /* Build Section */
 
@@ -1027,7 +967,6 @@ footer {
 
 /* Contact Page */
 
-
 /* Hero Section */
 
 .hero2 {
@@ -1041,14 +980,12 @@ footer {
   padding-bottom: 80px;
 }
 
-
 .hero-subtitle3 {
   font-weight: 400px;
   font-size: 24px;
   line-height: 48px;
   letter-spacing: 0.35px;
   text-align: center;
-
 }
 
 .hero-callout {
@@ -1060,7 +997,6 @@ footer {
   line-height: 48px;
   letter-spacing: 0.35px;
   text-align: center;
-
 }
 
 .hero-subdesp2 {
@@ -1068,10 +1004,9 @@ footer {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.44px;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   padding-top: 24px;
   text-align: center;
-
 }
 
 .stats-line2 {
@@ -1133,11 +1068,10 @@ footer {
 
 .callout-desp {
   margin: 0;
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   font-size: 15px;
   line-height: 22px;
 }
-
 
 /* =========================== */
 /* Method section */
@@ -1173,143 +1107,140 @@ footer {
 }
 
 .message-card h2 {
-    margin: 0 0 24px;
-    font-size: 22px;
-    font-weight: 600;
-    color: #111;
+  margin: 0 0 24px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #111;
 }
 
 .form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
 }
 
 .input-group {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .input-group label {
-    display: none;
+  display: none;
 }
 
 .input-group input,
 .input-group textarea {
-    width: 100%;
-    box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
 
-    border: 1px solid #dcddea;
-    border-radius: 6px;
+  border: 1px solid #dcddea;
+  border-radius: 6px;
 
-    padding: 14px 16px;
+  padding: 14px 16px;
 
-    font-family: inherit;
-    font-size: 14px;
+  font-family: inherit;
+  font-size: 14px;
 
-    color: #222;
-    background-color: #fff;
+  color: #222;
+  background-color: #fff;
 
-    outline: none;
+  outline: none;
 }
 
 .input-group input:focus,
 .input-group textarea:focus {
-    border-color: #ECECF04D;
-    box-shadow: 0 0 0 3px rgba(99, 91, 255, 0.1);
+  border-color: #ececf04d;
+  box-shadow: 0 0 0 3px rgba(99, 91, 255, 0.1);
 }
 
 .input-group textarea {
-    height: 120px;
-    resize: vertical;
+  height: 120px;
+  resize: vertical;
 }
 
 .send-button {
-    border: none;
-    border-radius: 6px;
+  border: none;
+  border-radius: 6px;
 
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 
-    padding: 13px 24px;
+  padding: 13px 24px;
 
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 500;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .send-button:hover {
-    background-color: #ECECF04D;
-    color: black;
+  background-color: #ececf04d;
+  color: black;
 }
 
-
 .input-with-icon {
-    position: relative;
+  position: relative;
 }
 
 .input-with-icon svg {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 
-    color: #8b91a7;
+  color: #8b91a7;
 
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .input-with-icon input {
-    width: 100%;
-    box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
 
-    padding: 14px 16px 14px 42px;
+  padding: 14px 16px 14px 42px;
 
-    border: 1px solid #dcddea;
-    border-radius: 6px;
+  border: 1px solid #dcddea;
+  border-radius: 6px;
 
-    font-family: inherit;
-    font-size: 14px;
+  font-family: inherit;
+  font-size: 14px;
 
-    outline: none;
+  outline: none;
 }
 
-
 .textarea-icon svg {
-    top: 18px;
-    transform: none;
+  top: 18px;
+  transform: none;
 }
 
 .input-with-icon textarea {
-    width: 100%;
-    height: 120px;
-    box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
 
-    padding: 14px 16px 14px 42px;
+  padding: 14px 16px 14px 42px;
 
-    border: 1px solid #dcddea;
-    border-radius: 6px;
+  border: 1px solid #dcddea;
+  border-radius: 6px;
 
-    font-family: inherit;
-    font-size: 14px;
+  font-family: inherit;
+  font-size: 14px;
 
-    resize: vertical;
-    outline: none;
+  resize: vertical;
+  outline: none;
 }
 
 .input-with-icon:focus-within svg {
-    color: black;
+  color: black;
 }
 
 .input-with-icon:focus-within input,
 .input-with-icon:focus-within textarea {
-    border-color: #ECECF04D;
-    box-shadow: 0 0 0 3px rgba(99, 91, 255, 0.1);
+  border-color: #ececf04d;
+  box-shadow: 0 0 0 3px rgba(99, 91, 255, 0.1);
 }
 
- /* ================================================ */
-
+/* ================================================ */
 
 /*  Contact info section */
 
@@ -1324,102 +1255,97 @@ footer {
 }
 
 .contact-info-card h2 {
-    margin: 0 0 20px 4px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #111827;
+  margin: 0 0 20px 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
 }
 
-
 .contact-info-item {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    min-height: 60px;
+  min-height: 60px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    border: 1px solid #e1e3ee;
-    border-radius: 7px;
+  border: 1px solid #e1e3ee;
+  border-radius: 7px;
 
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .contact-info-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-
 .contact-info-icon {
-    width: 38px;
-    height: 38px;
+  width: 38px;
+  height: 38px;
 
-    flex-shrink: 0;
+  flex-shrink: 0;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    margin-right: 14px;
+  margin-right: 14px;
 
-    background-color: #ECECF04D;
-    color: black;
+  background-color: #ececf04d;
+  color: black;
 
-    border-radius: 7px;
+  border-radius: 7px;
 }
 
 .contact-info-icon svg {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .contact-info-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    gap: 4px;
+  gap: 4px;
 
-    flex: 1;
+  flex: 1;
 }
 
 .contact-info-text strong {
-    font-size: 14px;
-    font-weight: 600;
-    color: #111827;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
 }
 
 .contact-info-text span {
-    font-size: 12px;
-    line-height: 18px;
-    color: #333b52;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333b52;
 }
-
 
 .contact-arrow {
-    margin-left: 10px;
+  margin-left: 10px;
 
-    font-size: 24px;
-    font-weight: 300;
+  font-size: 24px;
+  font-weight: 300;
 
-    color: #68708a;
+  color: #68708a;
 }
 
-
 .contact-info-item:hover {
-    border-color: #ECECF04D;
-    box-shadow: 0 3px 10px rgba(85, 72, 232, 0.08);
+  border-color: #ececf04d;
+  box-shadow: 0 3px 10px rgba(85, 72, 232, 0.08);
 }
 
 .contact-info-item:hover .contact-arrow {
-    color: black;
-    transform: translateX(3px);
+  color: black;
+  transform: translateX(3px);
 }
 
-
 .contact-arrow {
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 /* ============================================= */
@@ -1456,7 +1382,7 @@ footer {
   width: 112px;
   height: 112px;
   color: black;
-  background-color: #ECECF04D;
+  background-color: #ececf04d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1478,15 +1404,15 @@ footer {
 }
 
 .support-descp {
-  color: #0A0A0AB2;
+  color: #0a0a0ab2;
   font-weight: 400px;
   font-size: 18px;
   line-height: 28px;
-  letter-spacing: -0.44px;  
+  letter-spacing: -0.44px;
 }
 
-.support-buttons {
-}
+/* .support-buttons {
+} */
 
 .support-button {
   text-decoration: none;
@@ -1498,15 +1424,105 @@ footer {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.31px;
-  text-align: center;  
+  text-align: center;
+}
+
+/* =========================== */
+
+/* FAQ Section */
+
+.faq-content {
+  padding-top: 62px;
+  padding-bottom: 62px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-subcontent {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-title {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+}
+
+.faq-subtitle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+}
+
+.faq-line {
+  width: 42px;
+  height: 3px;
+  background-color: black;
+  margin-top: 12px;
+}
+
+.faq-container {
+  margin-top: 32px;
 }
 
 
 
+.faq-item {
+  border: 1px solid #e1e3ee;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  margin-top: 18px;
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 18px;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  text-align: left;
+}
+
+.faq-arrow {
+  font-size: 24px;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 18px;
+  transition:
+    max-height 0.3s ease,
+    padding 0.3s ease;
+}
 
 
-
-
+.faq-answer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #5f667a;
+  font-size: 14px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+  font-weight: 400px;
+}
 
 
 
@@ -1523,7 +1539,6 @@ footer {
 /* MEDIA SECTION */
 
 @media (max-width: 680px) {
-
   /* give the sections some breathing room since they were
      relying on the 1200px max-width before */
   .center-content,
