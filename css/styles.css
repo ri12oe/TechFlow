@@ -210,6 +210,17 @@ nav {
   flex-wrap: wrap;
 }
 
+.why2 .offer-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.why2 .offer-card {
+  width: auto;
+  min-height: 241px;
+}
+
 .offer-card {
   width: 346px;
   height: 241px;
@@ -1439,7 +1450,7 @@ footer {
 }
 
 .faq-subcontent {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -1469,8 +1480,6 @@ footer {
 .faq-container {
   margin-top: 32px;
 }
-
-
 
 .faq-item {
   border: 1px solid #e1e3ee;
@@ -1511,7 +1520,6 @@ footer {
     max-height 0.3s ease,
     padding 0.3s ease;
 }
-
 
 .faq-answer p {
   margin: 0;
@@ -1681,7 +1689,6 @@ footer {
 
 .signup-card .input-group {
   display: flex;
-  gap: 12px;
   align-items: center;
   position: relative;
   /* height: 46px; */
@@ -1700,7 +1707,7 @@ footer {
   background: transparent;
 }
 
-.signup-card .input-group input::placeholder {
+.input-group input::placeholder {
   color: #6b7280;
 }
 
@@ -1769,7 +1776,6 @@ footer {
   color: black;
 }
 
-
 .divider {
   display: flex;
   align-items: center;
@@ -1792,7 +1798,7 @@ footer {
 .social-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;  
+  gap: 10px;
 }
 
 .social-buttons button {
@@ -1801,7 +1807,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  font-size: 13px; 
+  font-size: 13px;
   background: white;
   border: 1px solid #dfe3eb;
   border-radius: 6px;
@@ -1833,15 +1839,144 @@ footer {
   height: 15px;
 }
 
+/* ========================== */
+
+/* Why section */
+.why2 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
 
 /* ========================== */
 
+/* Plan Section */
 
+.plan {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
 
+.plan-title {
+  font-weight: bold;
+  font-size: 18px;
+  /* line-height: 24px; */
+  letter-spacing: -0.31px;
+}
 
+.plan-subtitle {
+  font-weight: 400px;
+  font-size: 18px;
+  /* line-height: 48px; */
+  letter-spacing: 0.35px;
+}
 
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -0.31px;
+}
 
+.price span {
+  font-size: 24px;
+  color: #0a0a0ab2;
+}
 
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.check-icon {
+  width: 18px;
+  height: 18px;
+  color: black;
+  flex-shrink: 0;
+}
+
+.plan-cards {
+  padding-top: 24px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: white;
+  border-radius: 10px;
+  flex: 1 1 0;
+  max-width: 550px;
+  min-height: 400px;
+  border: 1px solid #0000001a;
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.plan-buttons {
+}
+
+.plan-button {
+  width: 100%;
+  /* height: 42px; */
+  border: none;
+  border-radius: 10px;
+  padding: 15px 32px;
+  border: 2px solid black;
+  color: black;
+  font-size: 18px;
+  font-weight: 600px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.plan-button.filled {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.plan-button.filled:hover {
+  background-color: #0a0a0a;
+}
+
+.pro-plan {
+  transform: translateY(14px);
+}
+
+.popular-label {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 600px;
+  border-radius: 8px 8px 0 0;
+
+}
 
 /* MEDIA SECTION */
 
