@@ -1426,9 +1426,80 @@ footer {
 
 /* Support Section */
 
+.support-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
 
+.support-leftcontent {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
+.support-subcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 0;
+}
 
+.support-icon {
+  width: 112px;
+  height: 112px;
+  color: black;
+  background-color: #ECECF04D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.support-icon svg {
+  width: 72px;
+  height: 72px;
+}
+
+.support-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  padding-top: 18px;
+}
+
+.support-descp {
+  color: #0A0A0AB2;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;  
+}
+
+.support-buttons {
+}
+
+.support-button {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 18px 24px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  text-align: center;  
+}
 
 
 
