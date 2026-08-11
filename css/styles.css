@@ -1639,13 +1639,13 @@ footer {
   font-weight: 500;
 }
 
-.left-content {
+/* .left-content {
 
 }
 
 .form {
 
-}
+} */
 
 .signup-card {
   width: 100%;
@@ -1679,8 +1679,9 @@ footer {
   text-decoration: none;
 }
 
-.input-group {
+.signup-card .input-group {
   display: flex;
+  gap: 12px;
   align-items: center;
   position: relative;
   /* height: 46px; */
@@ -1689,7 +1690,7 @@ footer {
   border-radius: 6px;
 }
 
-.input-group input {
+.signup-card .input-group input {
   width: 100%;
   height: 100%;
   border: none;
@@ -1699,7 +1700,7 @@ footer {
   background: transparent;
 }
 
-.input-group input::placeholder {
+.signup-card .input-group input::placeholder {
   color: #6b7280;
 }
 
