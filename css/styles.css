@@ -112,6 +112,13 @@ nav {
   letter-spacing: 0.35px;
 }
 
+.hero-headersub {
+  font-weight: 500px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+}
+
 .hero-highlight {
   /* display: inline-block; */
   color: #030213;
@@ -2094,14 +2101,20 @@ footer {
   /* HERO SECTION */
   .hero {
     flex-direction: column;
-    align-items: flex-start;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 24px;
   }
 
   .hero-content {
     width: 100%;
     min-height: auto;
+    text-align: center;
+  }
+
+  .hero-subheader {
+    text-align: center;
   }
 
   .hero-img3 {
@@ -2119,12 +2132,15 @@ footer {
   .hero-buttons {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 12px;
     width: 100%;
+    max-width: 420px;
   }
 
   .hero-buttons .hero-fill-button,
   .hero-buttons .hero-outline-button {
+    width: 100%;
     text-align: center;
     margin-left: 0;
   }
@@ -2134,6 +2150,7 @@ footer {
     margin-left: 0;
     padding-top: 10px;
     font-size: 18px;
+    width: 100%;
   }
 
   .hero-img,
@@ -2237,7 +2254,7 @@ footer {
   }
 
   /* Offer Card Section */
-  
+
   .features .offer-cards2 .offer-card2 {
     padding-top: 50px;
   }
@@ -2245,7 +2262,6 @@ footer {
   .features .offer-cards2 .offer-card2 .offer-card-title {
     padding-top: 16px;
   }
-
 
   /* Quote Section */
 
@@ -2273,10 +2289,24 @@ footer {
 
   /* About Us Page */
 
+  .hero-content .hero-header,
+  .hero-content .hero-headersub,
+  .hero-content .hero-header2 {
+    text-align: center;
+  }
 
+  .hero-content .hero-headersub {
+    font-size: 32px;
+  }
 
+  .hero-content .hero-line {
+    margin: 10px auto;
 
+  }
 
+  /* Values Section */
+
+  
 
   /* Make contact cards stack on narrow screens */
   .contact-container {
