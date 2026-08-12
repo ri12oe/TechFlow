@@ -262,6 +262,17 @@ nav {
   max-height: 24px;
 }
 
+.offer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.offer-content p {
+  margin: 0;
+}
+
 .offer-title {
   font-weight: 500px;
   font-size: 18px;
@@ -2306,7 +2317,42 @@ footer {
 
   /* Values Section */
 
+  .our-values .offer-cards .offer-card {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .our-values .offer-cards .offer-card .offer-content {
+    display: flex;
+    flex-direction: column;
   
+  }
+
+
+  .our-values .offer-icon {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .offer-content .offer-descp {
+    font-size: 14px;
+  }
+
+  .offer-content .offer-title {
+    font-size: 18px;
+  }
+
+  .our-values .offer-icon img {
+    max-width: 44px;
+    max-height: 44px;
+    width: auto;
+    height: auto;
+  }
+
+  /* Story Section */
 
   /* Make contact cards stack on narrow screens */
   .contact-container {
