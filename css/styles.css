@@ -309,6 +309,16 @@ nav {
   gap: 32px;
 }
 
+.develop-content2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
 .develop-img {
   width: 528px;
   height: 396px;
@@ -2312,7 +2322,6 @@ footer {
 
   .hero-content .hero-line {
     margin: 10px auto;
-
   }
 
   /* Values Section */
@@ -2320,15 +2329,12 @@ footer {
   .our-values .offer-cards .offer-card {
     display: flex;
     flex-direction: row;
-
   }
 
   .our-values .offer-cards .offer-card .offer-content {
     display: flex;
     flex-direction: column;
-  
   }
-
 
   .our-values .offer-icon {
     width: 72px;
@@ -2353,6 +2359,34 @@ footer {
   }
 
   /* Story Section */
+
+  .develop-content2 .develop-subcontent {
+    text-align: center;
+  }
+
+  .develop-content2 .develop-subcontent .develop-title {
+    font-size: 42px;
+  }
+
+  .develop-content2 .develop-subcontent .develop-descp {
+    padding-top: 10px;
+  }
+
+  .develop-content2 .develop-subcontent .story-signature {
+    font-size: 42px;
+  }
+
+  .develop-content2 .develop-img4 .img-dots {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: -20px;
+    bottom: -24px;
+  }
+
+  /* ============================ */
+
+  
 
   /* Make contact cards stack on narrow screens */
   .contact-container {
