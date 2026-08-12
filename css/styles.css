@@ -2586,13 +2586,53 @@ footer {
 
   /* Why Section */
 
+  .why2 .faq-subcontent {
+    text-align: center;
+  }
+
+  .why2 .faq-subtitle {
+    line-height: 50px;
+  }
+
+  .why2 .offer-cards {
+    display: flex;
+    padding-top: 10px;
+  }
+
+  /* =================== */
+  /* Plan Section */
+
+  .plan .faq-subtitle {
+    text-align: center;
+  }
+
+  .plan .faq-subcontent .faq-subtitle {
+    line-height: 50px;
+  }
+
+  .plan-cards {
+    margin-top: 30px;
+  }
+
+  /* ============================ */
+
+  /* How it works section */
+
+  .steps .faq-subcontent {
+    text-align: center;
+  }
+
+  .steps .faq-subcontent .faq-subtitle {
+    line-height: 50px;
+  }
+
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ====================== */
   
-
-
-
-
-
-
   /* FOOTER SECTION */
   .footer-top {
     flex-direction: column;
