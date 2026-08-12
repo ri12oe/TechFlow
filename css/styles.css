@@ -479,7 +479,9 @@ footer {
   padding-bottom: 48px;
   text-align: center;
   /* background-color: red; */
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
   min-height: 12px;
 }
 
@@ -490,6 +492,7 @@ footer {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.44px;
+  text-align: center;
 }
 
 .team-wrapper {
@@ -1975,7 +1978,6 @@ footer {
   font-size: 14px;
   font-weight: 600px;
   border-radius: 8px 8px 0 0;
-
 }
 
 /* ============================= */
@@ -2048,12 +2050,7 @@ footer {
   color: #6b7280;
 }
 
-
-
-
-
-
-
+/* =================== */
 
 /* MEDIA SECTION */
 
@@ -2132,7 +2129,15 @@ footer {
     margin-left: 0;
   }
 
-  .hero-img {
+  .hero-text-link {
+    text-align: center;
+    margin-left: 0;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  .hero-img,
+  .hero-img2 {
     width: 100%;
     height: 220px;
     margin-top: 32px;
@@ -2149,13 +2154,15 @@ footer {
     line-height: 34px;
   }
 
-  .offer-cards {
+  .offer-cards,
+  .offer-cards2 {
     flex-direction: column;
     margin-top: 32px;
     gap: 24px;
   }
 
-  .offer-card {
+  .offer-card,
+  .offer-card2 {
     width: 100%;
     height: auto;
   }
@@ -2179,11 +2186,97 @@ footer {
     margin-top: 0;
   }
 
-  .develop-img4 {
+  .develop-img4,
+  .develop-img2,
+  .develop-img3 {
     width: 100%;
     max-width: 100%;
     height: 260px;
   }
+
+  .developer-wrapper2 .develop-content:first-of-type .develop-img2 {
+    order: -1;
+  }
+
+  .developer-wrapper2 .develop-content:first-of-type .develop-subcontent {
+    order: 1;
+  }
+
+  .developer-wrapper2 .develop-content .develop-descp {
+    text-align: center;
+  }
+
+  .developer-wrapper2 .develop-content .develop-title {
+    text-align: center;
+  }
+
+  .developer-wrapper2 .develop-content .develop-subcontent {
+    padding-top: 50px;
+  }
+
+  /* Feature Page: Teams Section */
+  .teams {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .teams-header {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .companys-logo {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 140px));
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    max-width: 340px;
+  }
+
+  /* Offer Card Section */
+  
+  .features .offer-cards2 .offer-card2 {
+    padding-top: 50px;
+  }
+
+  .features .offer-cards2 .offer-card2 .offer-card-title {
+    padding-top: 16px;
+  }
+
+
+  /* Quote Section */
+
+  .quote-subcontent {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  /* Ready Section */
+
+  .ready-title {
+    text-align: center;
+    line-height: 54px;
+  }
+
+  .ready-buttons .ready-button {
+    border-radius: 10px;
+    padding: 24px 42px;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.31px;
+    margin-top: 10px;
+  }
+
+  /* About Us Page */
+
+
+
+
+
 
   /* Make contact cards stack on narrow screens */
   .contact-container {
