@@ -2085,6 +2085,97 @@ footer {
 
 /* MEDIA SECTION */
 
+@media (max-width: 1250px) {
+  .center-content,
+  nav,
+  .footer-top,
+  .copyright {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  nav {
+    gap: 20px;
+  }
+
+  .hero {
+    gap: 24px;
+  }
+
+  .hero-content {
+    max-width: 440px;
+  }
+
+  .hero-img,
+  .hero-img2 {
+    width: 100%;
+    max-width: 520px;
+    height: 320px;
+  }
+
+  .offer-cards,
+  .offer-cards2 {
+    gap: 20px;
+  }
+
+  .offer-card,
+  .offer-card2 {
+    width: calc(50% - 10px);
+  }
+
+  .develop-content {
+    gap: 24px;
+  }
+
+  .companys-logo {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1120px) {
+  nav {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    width: auto;
+  }
+
+  .hero {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .offer-card,
+  .offer-card2 {
+    width: 100%;
+  }
+
+  .develop-content {
+    flex-direction: column;
+  }
+
+  .companys-logo {
+    width: 100%;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .number-cards {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 680px) {
   /* give the sections some breathing room since they were
      relying on the 1200px max-width before */
@@ -2632,7 +2723,7 @@ footer {
   }
 
   /* ====================== */
-  
+
   /* FOOTER SECTION */
   .footer-top {
     flex-direction: column;
