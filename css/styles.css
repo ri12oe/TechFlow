@@ -2422,7 +2422,32 @@ footer {
   /* ========================= */
 
   /* Build Section */
-  
+
+  .build-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .build-section .build-title {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .build-section .build-subcontent .build-subdescp {
+    padding-top: 10px;
+  }
+
+  .build-section .ready-buttons2 .ready-button2 {
+    border-radius: 10px;
+    padding: 24px 42px;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.31px;
+    margin-top: 10px;
+  }
+
+  /* ========================================== */
 
   /* Make contact cards stack on narrow screens */
   .contact-container {
@@ -2469,4 +2494,5 @@ footer {
     width: auto;
     height: auto;
     gap: 12px;
-  }
+  }
+}
