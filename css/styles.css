@@ -1795,10 +1795,13 @@ footer {
   font-weight: 600px;
   margin-top: 10px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .trial-button span {
-  margin-left: 8px;
   font-size: 18px;
 }
 
@@ -2502,6 +2505,89 @@ footer {
   .faq-content .faq-subcontent .faq-subtitle {
     line-height: 40px;
   }
+
+  /* ======================================== */
+
+  /* Get Started page */
+
+  /* Hero section */
+
+  .hero-content3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-content {
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .benfits-container {
+    align-items: left;
+  }
+
+
+  .customer-container {
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .form {
+    padding-top: 32px;
+  }
+
+  .signup-card {
+    max-width: 100%;
+    padding: 24px;
+  }
+
+  .signup-card .input-group {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+
+  .signup-card .input-group input {
+    font-size: 14px;
+  }
+
+  .name-row {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .terms {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .terms input {
+    margin-top: 0;
+  }
+
+  .trial-button {
+    padding: 16px 0;
+    font-size: 15px;
+  }
+
+  .social-buttons {
+    grid-template-columns: 1fr;
+    padding: 12px 14px;
+
+  }
+
+  .trial-button {
+    text-align: center;
+  }
+
+  /* =================== */
+
+  /* Why Section */
+
+  
+
 
 
 
