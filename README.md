@@ -13,15 +13,15 @@ This website was created solely for the purpose of practicing and improving my f
 TechFlow is a responsive website project designed to present a modern technology platform. The project includes a home page, features page, and an About page with information about the company, its values, story, and achievements, and many more to come.
 
 
-## How to Run
+## How to Download / Clone
 
-    1. Download or clone the project.
+    1. Download / clone the project.
 
     2. Open the homework_two folder.
 
     3. Open index.html in a web browser.
 
-    4. Use the navigation menu to visit the Features and About pages.
+    4. Use the navigation menu to visit the pages.
 
 No server or additional software is required.
 
