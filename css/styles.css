@@ -529,6 +529,82 @@ footer .center-content.copyright {
   color: #0056ba;
 }
 
+.developer-wrapper2 {
+  background-color: #f8f9fa;
+}
+.developer-wrapper2 .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.developer-wrapper2 .center-content.develop-content2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-subcontent {
+  flex: 1 1 320px;
+  max-width: 528px;
+  min-height: 400px;
+  margin-top: 0;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-subcontent .hero-header2 {
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-subcontent .develop-title {
+  font-weight: 500px;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: #0a0a0a;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-subcontent .develop-descp {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: rgba(10, 10, 10, 0.6980392157);
+  margin-top: 24px;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-subcontent .story-signature {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32px;
+  font-weight: 500;
+  color: #222;
+  margin-top: 28px;
+  margin-bottom: 2px;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-img4 {
+  flex: 1 1 320px;
+  max-width: 650px;
+  width: 100%;
+  height: clamp(280px, 40vw, 500px);
+  border-radius: 14px;
+  background-image: url(../images/tech-office.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.developer-wrapper2 .center-content.develop-content2 .develop-img4 .img-dots {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: -24px;
+  bottom: -24px;
+  background-image: radial-gradient(circle, black 2px, transparent 2px);
+  background-size: 14px 14px;
+  z-index: 2;
+  pointer-events: none;
+}
+
 .team-wrapper {
   border-bottom: 1px solid #dedede;
 }
