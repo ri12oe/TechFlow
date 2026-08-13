@@ -717,3 +717,95 @@ footer .center-content.copyright {
   line-height: 24px;
   letter-spacing: -0.31px;
 }
+
+.value-wrapper {
+  background-color: black;
+}
+.value-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.value-wrapper .center-content.our-values {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.value-wrapper .center-content.our-values .value-title {
+  color: white;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+}
+.value-wrapper .center-content.our-values .value-line {
+  width: 48px;
+  height: 3px;
+  background-color: white;
+  margin: 0 auto;
+}
+.value-wrapper .center-content.our-values .offer-cards {
+  display: flex;
+  margin-top: 48px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card {
+  width: 346px;
+  height: 241px;
+  border-radius: 14px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  border-radius: 10px;
+  background-color: rgba(3, 2, 19, 0.1019607843);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-icon img {
+  width: auto;
+  height: auto;
+  max-width: 24px;
+  max-height: 24px;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-icon .feature-icon {
+  width: 20px;
+  height: 20px;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-content p {
+  margin: 0;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-content .offer-title {
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.44px;
+  color: #0a0a0a;
+  text-align: left;
+}
+.value-wrapper .center-content.our-values .offer-cards .offer-card .offer-content .offer-descp {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  color: rgba(10, 10, 10, 0.6980392157);
+  text-align: left;
+}
