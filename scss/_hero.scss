@@ -1,0 +1,78 @@
+.center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+
+  &.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .hero-content {
+      flex: 1 1 320px;
+      max-width: 528px;
+      min-height: 400px;
+
+      .hero-header {
+        font-weight: 500px;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: 0.35px;
+      }
+
+      .hero-subheader {
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.44px;
+        color: #0a0a0ab2;
+        padding-top: 24px;
+      }
+
+      .hero-buttons {
+        margin-top: 32px;
+
+        a {
+          &.hero-fill-button {
+            text-decoration: none;
+            background-color: #030213;
+            color: white;
+            border-radius: 10px;
+            padding: 15px 32px;
+            font-weight: 500px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.31px;
+          }
+
+          &.hero-outline-button {
+            background-color: #eceef2;
+            border-radius: 10px;
+            padding: 15px 32px;
+            color: #030213;
+            font-weight: 500px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.31px;
+            text-decoration: none;
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+    .hero-img {
+        width: 528px;
+        height: 352px;
+        border-radius: 16px;
+        background-image: url(../images/team.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -80px;
+    }
+  }
+}
