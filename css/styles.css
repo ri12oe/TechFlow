@@ -192,6 +192,12 @@ footer .center-content.copyright {
   line-height: 48px;
   letter-spacing: 0.35px;
 }
+.center-content.hero .hero-content .hero-header .hero-highlight {
+  color: #030213;
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 6px;
+}
 .center-content.hero .hero-content .hero-subheader {
   font-weight: 400px;
   font-size: 18px;
@@ -226,11 +232,30 @@ footer .center-content.copyright {
   text-decoration: none;
   margin-left: 16px;
 }
+.center-content.hero .hero-content .hero-buttons a.hero-text-link {
+  color: #030213;
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  margin-left: 16px;
+}
 .center-content.hero .hero-img {
   width: 528px;
   height: 352px;
   border-radius: 16px;
   background-image: url(../images/team.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -80px;
+}
+.center-content.hero .hero-img2 {
+  width: 528px;
+  height: 352px;
+  border-radius: 16px;
+  background-image: url(../images/working.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
