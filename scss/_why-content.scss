@@ -1,0 +1,84 @@
+.why-content-wrapper {
+  background-color: #ececf04d;
+
+  .center-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+
+    &.why-content {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      .why-title {
+        font-weight: 500px;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.37px;
+        color: #0a0a0a;
+        text-align: center;
+      }
+      .why-subtitle {
+        color: #0a0a0ab2;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.44px;
+        text-align: center;
+      }
+      .offer-cards {
+        display: flex;
+        margin-top: 48px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .offer-card {
+          width: 346px;
+          height: 241px;
+          border-radius: 14px;
+          background-color: white;
+          border: 1px solid #0000001a;
+          padding: 33px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 14px;
+          .offer-icon {
+            width: 48px;
+            height: 48px;
+            min-width: 48px;
+            min-height: 48px;
+            border-radius: 10px;
+            background-color: #0302131a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: none;
+            img {
+                width: auto;
+                height: auto;
+                max-width: 24px;
+                max-height: 24px;
+            }
+          }
+          .offer-title {
+            font-weight: 500px;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: -0.44px;
+            color: #0a0a0a;
+            text-align: left;
+          }
+          .offer-descp {
+            font-weight: 400px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.31px;
+            color: #0a0a0ab2;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
