@@ -262,6 +262,10 @@ footer .center-content.copyright {
   margin-top: -80px;
 }
 
+.hero-wrapper {
+  background-color: rgba(236, 236, 240, 0.2980392157);
+}
+
 .why-content-wrapper {
   background-color: rgba(236, 236, 240, 0.3019607843);
 }
@@ -390,4 +394,47 @@ footer .center-content.copyright {
   letter-spacing: -0.44px;
   color: rgba(10, 10, 10, 0.6980392157);
   margin-top: 24px;
+}
+
+.team-wrapper {
+  border-bottom: 1px solid #dedede;
+}
+.team-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.team-wrapper .center-content.teams {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 12px;
+}
+.team-wrapper .center-content.teams .teams-header {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  text-align: center;
+}
+.team-wrapper .center-content.teams .companys-logo {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-wrapper .center-content.teams .companys-logo img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #efe7eb;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }

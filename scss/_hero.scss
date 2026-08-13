@@ -2,7 +2,6 @@
   max-width: 1200px;
   margin: 0 auto;
   min-height: 400px;
-
   &.hero {
     display: flex;
     justify-content: space-between;
@@ -100,4 +99,8 @@
         margin-top: -80px;
     }
   }
+}
+
+.hero-wrapper {
+    background-color: #ececf04c;
 }
