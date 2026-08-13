@@ -599,3 +599,48 @@ footer .center-content.copyright {
   color: rgba(10, 10, 10, 0.6980392157);
   text-align: center;
 }
+
+.center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.center-content.quote-team {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.center-content.quote-team .quote-img {
+  width: 350px;
+  height: 250px;
+  border-radius: 14px;
+  background-image: url(../images/worker.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center-content.quote-team .quote-subcontent {
+  min-height: 400px;
+  margin-top: 50px;
+}
+.center-content.quote-team .quote-subcontent .quote-title {
+  font-weight: 500px;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: #030213;
+}
+.center-content.quote-team .quote-subcontent .quote-descp {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #666;
+}
+.center-content.quote-team .quote-subcontent .quote-sign {
+  color: #666;
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: -20px;
+}
