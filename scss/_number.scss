@@ -1,0 +1,73 @@
+.number-wrapper {
+  background-color: white;
+  .center-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+    &.numbers-stats {
+      padding-top: 36px;
+      padding-bottom: 36px;
+      .stats-title {
+        font-weight: 500px;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.37px;
+        color: #030213;
+        text-align: center;
+      }
+      .stats-line {
+        width: 48px;
+        height: 3px;
+        background-color: black;
+        margin: 0 auto;
+      }
+      .number-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 50px;
+        .number-card {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 24px;
+          .number-icon {
+            width: 72px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            border-radius: 10px;
+            svg {
+              width: 35px;
+              height: 25px;
+              color: white;
+            }
+          }
+          .number-subcontent {
+            .number-subtitle {
+              font-weight: 900px;
+              font-size: 36px;
+              line-height: 32px;
+              letter-spacing: 0.37px;
+            }
+            .number-descp {
+              font-weight: 400px;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.35px;
+            }
+          }
+          .number-line {
+            width: 3px;
+            height: 48px;
+            background-color: #0302131a;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}
