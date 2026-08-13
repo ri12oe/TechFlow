@@ -16,16 +16,44 @@
       max-width: 528px;
       min-height: 400px;
 
+      .hero-header2 {
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 0.35px;
+      }
+
+      .hero-headersub {
+        font-weight: 500px;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: 0.35px;
+        .hero-highlight {
+          color: #030213;
+          font-weight: 700;
+          padding: 0 4px;
+          border-radius: 6px;
+          font-size: 48px;
+        }
+      }
+
+      .hero-line {
+        width: 48px;
+        height: 3px;
+        background-color: #0302131a;
+        margin: 24px 0;
+      }
+
       .hero-header {
         font-weight: 500px;
         font-size: 48px;
         line-height: 48px;
         letter-spacing: 0.35px;
         .hero-highlight {
-            color: #030213;
-            font-weight: 700;
-            padding: 0 4px;
-            border-radius: 6px;
+          color: #030213;
+          font-weight: 700;
+          padding: 0 4px;
+          border-radius: 6px;
         }
       }
 
@@ -79,28 +107,41 @@
       }
     }
     .hero-img {
-        width: 528px;
-        height: 352px;
-        border-radius: 16px;
-        background-image: url(../images/team.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: -80px;
+      width: 528px;
+      height: 352px;
+      border-radius: 16px;
+      background-image: url(../images/team.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -80px;
     }
     .hero-img2 {
-        width: 528px;
-        height: 352px;
-        border-radius: 16px;
-        background-image: url(../images/working.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: -80px;
+      width: 528px;
+      height: 352px;
+      border-radius: 16px;
+      background-image: url(../images/working.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -80px;
+    }
+    .hero-img3 {
+      flex: 1 1 320px;
+      max-width: 528px;
+      width: 100%;
+      height: 352px;
+      border-radius: 16px;
+      /* background-color: red; */
+      background-image: url(../images/about-hero.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 0;
     }
   }
 }
 
 .hero-wrapper {
-    background-color: #ececf04c;
+  background-color: #ececf04c;
 }
