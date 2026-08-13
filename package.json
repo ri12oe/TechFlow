@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This website was created solely for the purpose of practicing and improving my front-end development skills. It is not a real or commercial website. The project was originally based on the N212 Intermediate Front-End Development class of one of the homeworks, and I expanded upon the original design and functionality to further develop my skills and explore my own ideas.",
+  "keywords": [],
+  "homepage": "https://github.com/ri12oe/TechFlow#readme",
+  "bugs": {
+    "url": "https://github.com/ri12oe/TechFlow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ri12oe/TechFlow.git"
+  },
+  "license": "ISC",
+  "author": "Mario E.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.102.0"
+  }
+}
