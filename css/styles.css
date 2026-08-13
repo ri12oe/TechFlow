@@ -396,6 +396,101 @@ footer .center-content.copyright {
   margin-top: 24px;
 }
 
+.developer-wrapper2 {
+  background-color: #f8f9fa;
+}
+.developer-wrapper2 .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.developer-wrapper2 .center-content.develop-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent {
+  flex: 1 1 320px;
+  max-width: 528px;
+  min-height: 400px;
+  margin-top: 0;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent .develop-title {
+  font-weight: 500px;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: #0a0a0a;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent .develop-descp {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: rgba(10, 10, 10, 0.6980392157);
+  margin-top: 24px;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent .develop-descp a {
+  text-decoration: none;
+  color: #0056ba;
+}
+.developer-wrapper2 .center-content.develop-content .develop-img2 {
+  width: 528px;
+  height: 396px;
+  border-radius: 14px;
+  background-image: url(../images/collab.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.developer-wrapper2 .center-content.develop-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.developer-wrapper2 .center-content.develop-content .develop-img3 {
+  width: 528px;
+  height: 396px;
+  border-radius: 14px;
+  background-image: url(../images/auto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent {
+  flex: 1 1 320px;
+  max-width: 528px;
+  min-height: 400px;
+  margin-top: 0;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent .develop-title {
+  font-weight: 500px;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: #0a0a0a;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent .develop-descp {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: rgba(10, 10, 10, 0.6980392157);
+  margin-top: 24px;
+}
+.developer-wrapper2 .center-content.develop-content .develop-subcontent .develop-descp a {
+  text-decoration: none;
+  color: #0056ba;
+}
+
 .team-wrapper {
   border-bottom: 1px solid #dedede;
 }

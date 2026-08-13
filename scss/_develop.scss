@@ -5,43 +5,141 @@
     margin: 0 auto;
     min-height: 400px;
     &.develop-content {
-        padding-top: 80px;
-        padding-bottom: 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 32px;
-        .develop-img {
-            width: 528px;
-            height: 396px;
-            border-radius: 14px;
-            background-image: url(../images/about.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+      .develop-img {
+        width: 528px;
+        height: 396px;
+        border-radius: 14px;
+        background-image: url(../images/about.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .develop-subcontent {
+        flex: 1 1 320px;
+        max-width: 528px;
+        min-height: 400px;
+        margin-top: 0;
+        .develop-title {
+          font-weight: 500px;
+          font-size: 36px;
+          line-height: 40px;
+          letter-spacing: 0.37px;
+          color: #0a0a0a;
         }
-        .develop-subcontent {
-            flex: 1 1 320px;
-            max-width: 528px;
-            min-height: 400px;
-            margin-top: 0;
-            .develop-title {
-                font-weight: 500px;
-                font-size: 36px;
-                line-height: 40px;
-                letter-spacing: 0.37px;
-                color: #0a0a0a;
-            }
-            .develop-descp {
-                font-weight: 400px;
-                font-size: 18px;
-                line-height: 28px;
-                letter-spacing: -0.44px;
-                color: #0a0a0ab2;
-                margin-top: 24px;
-            }
+        .develop-descp {
+          font-weight: 400px;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: -0.44px;
+          color: #0a0a0ab2;
+          margin-top: 24px;
         }
+      }
     }
   }
 }
+
+.developer-wrapper2 {
+  background-color: #f8f9fa;
+  .center-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+    &.develop-content {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+      .develop-subcontent {
+        flex: 1 1 320px;
+        max-width: 528px;
+        min-height: 400px;
+        margin-top: 0;
+        .develop-title {
+          font-weight: 500px;
+          font-size: 36px;
+          line-height: 40px;
+          letter-spacing: 0.37px;
+          color: #0a0a0a;
+        }
+        .develop-descp {
+          font-weight: 400px;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: -0.44px;
+          color: #0a0a0ab2;
+          margin-top: 24px;
+          a {
+            text-decoration: none;
+            color: #0056ba;
+          }
+        }
+      }
+      .develop-img2 {
+        width: 528px;
+        height: 396px;
+        border-radius: 14px;
+        background-image: url(../images/collab.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+    &.develop-content {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+      .develop-img3 {
+        width: 528px;
+        height: 396px;
+        border-radius: 14px;
+        background-image: url(../images/auto.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .develop-subcontent {
+        flex: 1 1 320px;
+        max-width: 528px;
+        min-height: 400px;
+        margin-top: 0;
+        .develop-title {
+          font-weight: 500px;
+          font-size: 36px;
+          line-height: 40px;
+          letter-spacing: 0.37px;
+          color: #0a0a0a;
+        }
+        .develop-descp {
+          font-weight: 400px;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: -0.44px;
+          color: #0a0a0ab2;
+          margin-top: 24px;
+          a {
+            text-decoration: none;
+            color: #0056ba;
+          }
+        }
+      }
+    }
+  }
+}
+
+
