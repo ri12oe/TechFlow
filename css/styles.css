@@ -936,7 +936,7 @@ footer .center-content.copyright {
 }
 .number-wrapper .center-content.numbers-stats .number-cards .number-card .number-icon svg {
   width: 35px;
-  height: 25px;
+  height: 35px;
   color: white;
 }
 .number-wrapper .center-content.numbers-stats .number-cards .number-card .number-subcontent .number-subtitle {
@@ -956,4 +956,73 @@ footer .center-content.copyright {
   height: 48px;
   background-color: rgba(3, 2, 19, 0.1019607843);
   margin-left: 20px;
+}
+
+.build-wrapper {
+  margin-bottom: 32px;
+}
+.build-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.build-wrapper .center-content.build-section {
+  position: relative;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.build-wrapper .center-content.build-section ::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 90px;
+  height: 90px;
+  background-image: radial-gradient(circle, white 2px, transparent 2px);
+  background-size: 14px 14px;
+  pointer-events: none;
+  z-index: 0;
+}
+.build-wrapper .center-content.build-section .build-title {
+  color: white;
+  font-size: 48px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+}
+.build-wrapper .center-content.build-section .build-subcontent {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.build-wrapper .center-content.build-section .build-subcontent .build-subdescp {
+  color: white;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+.build-wrapper .center-content.build-section .build-subcontent .ready-buttons2 {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+.build-wrapper .center-content.build-section .build-subcontent .ready-buttons2 .ready-button2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px 32px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  text-align: center;
 }
