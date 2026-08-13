@@ -644,3 +644,38 @@ footer .center-content.copyright {
   font-size: 16px;
   margin-top: -20px;
 }
+
+.ready-wrapper {
+  background-color: black;
+}
+.ready-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.ready-wrapper .center-content.ready-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ready-wrapper .center-content.ready-content .ready-title {
+  font-size: 48px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: white;
+}
+.ready-wrapper .center-content.ready-content .ready-buttons {
+  margin-top: 32px;
+}
+.ready-wrapper .center-content.ready-content .ready-buttons .ready-button {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px 32px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+}
