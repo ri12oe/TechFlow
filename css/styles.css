@@ -1330,3 +1330,74 @@ footer .center-content.copyright {
   color: black;
   transform: translateX(3px);
 }
+
+.support-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.support-wrapper .center-content.support-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+.support-wrapper .center-content.support-content .support-leftcontent {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.support-wrapper .center-content.support-content .support-leftcontent .support-icon {
+  width: 112px;
+  height: 112px;
+  color: black;
+  background-color: rgba(236, 236, 240, 0.3019607843);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+.support-wrapper .center-content.support-content .support-leftcontent .support-icon svg {
+  width: 72px;
+  height: 72px;
+}
+.support-wrapper .center-content.support-content .support-leftcontent .support-subcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 0;
+}
+.support-wrapper .center-content.support-content .support-leftcontent .support-subcontent .support-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  padding-top: 18px;
+}
+.support-wrapper .center-content.support-content .support-leftcontent .support-subcontent .support-descp {
+  color: rgba(10, 10, 10, 0.6980392157);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+}
+.support-wrapper .center-content.support-content .support-buttons .support-button {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 18px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  text-align: center;
+  display: inline-block;
+}
