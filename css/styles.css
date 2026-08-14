@@ -404,6 +404,296 @@ footer .center-content.copyright {
   line-height: 22px;
 }
 
+.hero-wrapper {
+  background-color: rgba(236, 236, 240, 0.2980392157);
+}
+.hero-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.hero-wrapper .center-content.hero3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .hero-header2 {
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .hero-header {
+  font-weight: 500px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .hero-header .hero-highlight {
+  color: #030213;
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 6px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .hero-subheader {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: rgba(10, 10, 10, 0.6980392157);
+  padding-top: 24px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .benfits-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 28px;
+  width: fit-content;
+  max-width: 100%;
+  height: fit-content;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .benfits-container .benfits {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 0px;
+  border-radius: 999px;
+  color: #0b1220;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .benfits-container .benfits svg {
+  width: 24px;
+  height: 24px;
+  background-color: #030213;
+  border-radius: 999px;
+  padding: 4px;
+  box-sizing: content-box;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .benfits-container .benfits svg circle {
+  fill: #030213;
+  stroke: none;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .benfits-container .benfits svg polyline {
+  stroke: white;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .benfits-container .benfits span {
+  display: block;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container .customer-avaters {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container .customer-avaters img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.08);
+  margin-left: -12px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container .customer-avaters img:first-child {
+  margin-left: 0;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container .stars-cotainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  color: #0b1220;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container .stars-cotainer svg {
+  width: 18px;
+  height: 18px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .left-content .customer-container .stars-cotainer span {
+  color: #475569;
+  font-weight: 500;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card {
+  width: 100%;
+  max-width: 590px;
+  padding: 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .signup-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .signup-header h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .signup-header p {
+  margin: 0;
+  font-size: 13px;
+  color: #4b5563;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .signup-header a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .name-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .input-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #dfe3eb;
+  border-radius: 8px;
+  padding: 18px 12px;
+  margin-top: 10px;
+  background: #ffffff;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .input-group .input-icon {
+  width: 20px;
+  height: 20px;
+  color: #7c83a0;
+  flex: 0 0 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .input-group .password-icon {
+  width: 20px;
+  height: 20px;
+  color: #7c83a0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .input-group input {
+  flex: 1 1 auto;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  padding: 6px 0;
+  color: #111827;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .input-group input::placeholder {
+  color: #6b7280;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 14px 0;
+  font-size: 11px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .terms input {
+  margin-top: 2px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .terms a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .trial-button {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  color: white;
+  font-size: 13px;
+  font-weight: 600px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .trial-button span {
+  font-size: 18px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card form .trial-button:hover {
+  background: rgba(236, 236, 240, 0.2980392157);
+  color: black;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .divider span {
+  flex: 1;
+  height: 1px;
+  background-color: #e5e7eb;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .divider p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7290;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .social-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .social-buttons button {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 13px;
+  background: white;
+  border: 1px solid #dfe3eb;
+  border-radius: 6px;
+  color: #374151;
+  cursor: pointer;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .social-buttons button .social-icon {
+  width: 17px;
+  height: 17px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .social-buttons strong {
+  margin-right: 7px;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .secure-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #6b7280;
+}
+.hero-wrapper .center-content.hero3 .hero-content3 .form .signup-card .secure-message svg {
+  width: 15px;
+  height: 15px;
+}
+
 .why-content-wrapper {
   background-color: rgba(236, 236, 240, 0.3019607843);
 }
