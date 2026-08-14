@@ -1994,3 +1994,86 @@ footer .center-content.copyright {
 .hero-wrapper .center-content.plan .plan-cards .plan-card.pro-plan .plan-buttons .plan-button.filled:hover {
   background-color: #0a0a0a;
 }
+
+.step-wrapper .center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+.step-wrapper .center-content.steps {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.step-wrapper .center-content.steps .faq-subcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.step-wrapper .center-content.steps .faq-subcontent .faq-title {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+}
+.step-wrapper .center-content.steps .faq-subcontent .faq-subtitle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+}
+.step-wrapper .center-content.steps .steps-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  position: relative;
+  padding-top: 36px;
+}
+.step-wrapper .center-content.steps .steps-container .step {
+  position: relative;
+  text-align: center;
+  padding: 32px 24px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06);
+}
+.step-wrapper .center-content.steps .steps-container .step .step-number {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+.step-wrapper .center-content.steps .steps-container .step h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+.step-wrapper .center-content.steps .steps-container .step p {
+  max-width: 280px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #6b7280;
+}
+.step-wrapper .center-content.steps .steps-container .steps-container::before {
+  content: "";
+  position: absolute;
+  top: 56px;
+  left: 16%;
+  right: 16%;
+  height: 2px;
+  background-color: #f1f1f1;
+  z-index: 0;
+}
