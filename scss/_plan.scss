@@ -1,0 +1,138 @@
+.hero-wrapper {
+  background-color: #ececf04c;
+  .center-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+    &.plan {
+      padding-top: 36px;
+      padding-bottom: 36px;
+      .faq-subcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .faq-title {
+          font-weight: 400px;
+          font-size: 18px;
+          line-height: 48px;
+          letter-spacing: 0.35px;
+        }
+        .faq-subtitle {
+          font-weight: bold;
+          font-size: 36px;
+          line-height: 24px;
+          letter-spacing: -0.31px;
+        }
+      }
+      .plan-cards {
+        padding-top: 24px;
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        .plan-card {
+          background-color: white;
+          border-radius: 10px;
+          flex: 1 1 0;
+          max-width: 550px;
+          min-height: 400px;
+          border: 1px solid #0000001a;
+          padding: 33px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          box-sizing: border-box;
+          .plan-title {
+            font-weight: bold;
+            font-size: 18px;
+            /* line-height: 24px; */
+            letter-spacing: -0.31px;
+          }
+          .plan-subtitle {
+            font-weight: 400px;
+            font-size: 18px;
+            /* line-height: 48px; */
+            letter-spacing: 0.35px;
+          }
+          .price {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: -0.31px;
+            span {
+              font-size: 24px;
+              color: #0a0a0ab2;
+            }
+          }
+          .check-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            li {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-bottom: 12px;
+            }
+            .check-icon {
+              width: 18px;
+              height: 18px;
+              color: black;
+              flex-shrink: 0;
+            }
+          }
+          .plan-buttons {
+            .plan-button {
+              width: 100%;
+              /* height: 42px; */
+              border: none;
+              border-radius: 10px;
+              padding: 15px 32px;
+              border: 2px solid black;
+              color: black;
+              font-size: 18px;
+              font-weight: 600px;
+              margin-top: 10px;
+              cursor: pointer;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+            }
+          }
+          &.pro-plan {
+            transform: translateY(14px);
+            .popular-label {
+              position: absolute;
+              top: -15px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 95%;
+              height: 28px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              background-color: black;
+              color: white;
+              font-size: 14px;
+              font-weight: 600px;
+              border-radius: 8px 8px 0 0;
+            }
+            .plan-buttons {
+              .plan-button.filled {
+                background-color: black;
+                color: white;
+                border-color: black;
+                &:hover {
+                  background-color: #0a0a0a;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
